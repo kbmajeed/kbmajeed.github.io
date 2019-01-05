@@ -1,29 +1,9 @@
-# Particle Jekyll Theme
-
-![](./particle.jpg)
-
-This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
-
-The Theme features:
-
-- Gulp
-- SASS
-- Sweet Scroll
-- Particle.js
-- BrowserSync
-- Font Awesome and Devicon icons
-- Google Analytics
-- Info Customization
+# Kbmajeed Portfolio
 
 ### Basic Setup
-
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Particle Theme](https://github.com/nrandecker/particle/fork)
-3. Clone the repo you just forked.
-4. Edit `_config.yml` to personalize your site.
+1. Edit `_config.yml` to personalize your site.
 
 ### Site and User Settings
-
 You have to fill some informations on `_config.yml` to customize your site.
 
 ```
@@ -33,13 +13,13 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://localhost:3000" # the base hostname & protocol for your site
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
+username: kbmajeed
+user_description: Intelligent Systems Engineer
 user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+email: kbmajeed1@gmail.com
+twitter_username: kbmajeed1
+github_username:  kbmajeed1
+gplus_username:  nil
 ```
 
 **Don't forget to change your url before you deploy your site!**
