@@ -1,13 +1,13 @@
 # Site settings
-title: Kabir Abdulmajeed Portfolio
-description: Kabir Abdulmajeed Portfolio
+title: Kabir Abdulmajeed 
+description: Kbmajeed Portfolio
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Kabir Abdulmajeed
 user_description: 
-user_title: Intelligent Systems Engineer
+user_title: Systems Engineer
 email: kbmajeed1@gmail.com
 twitter_username: kbmajeed1
 github_username:  kbmajeed
