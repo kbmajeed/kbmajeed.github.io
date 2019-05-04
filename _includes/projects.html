@@ -71,12 +71,12 @@
   <div class="contents">
     <h3 align="center"> Random Forests for Algorithmic Trading </h3>
     <ul>
-      <li align="left"> Python, OpenCV </li>
+      <li align="left"> Python, Pandas, NumPy </li>
     </ul>
-    <p align="justify"> This Portfolio simulator builds the performance of the portolio for a given stock and market data.
-        It receives an "Orders" file containing actions: "BUY", "SELL", Symbol of the stock, Dates, and 
-      Starting value. The simulator then builds the portolio returns</p>
-    <a class="project-link" href="https://kbmajeed.github.io/HiddenFiles/">Check it out</a>
+    <p align="justify"> This work builds on a Random Forest machine learning algorithm for stock trading. Historical stock 
+    data is used to train the algorithm in-sample. It is then tested by simulating the possible portfolio performance using a
+    market simulator. Portfolio gains of around 200% was achieved for AAPL stock in 2008 (in-sample) vs 2009 (out-sample)</p>
+    <a class="project-link" href="https://kbmajeed.github.io/HiddenFiles/">Private</a>
   </div>
 </div>
 
@@ -87,7 +87,7 @@
   <div class="contents">
     <h3 align="center"> Bollinger Bands, RSI, MACD Stock Market Indicators </h3>
     <ul>
-      <li align="left"> Python, OpenCV </li>
+      <li align="left"> Python, Pandas, NumPy </li>
     </ul>
     <p align="justify"> The objective of this project is to showcase different indicators used in the stock market for trading
      decisions Bollinger bands, %b, Relative Strength Index, and Moving Average Convergence Divergence.</p>
@@ -102,7 +102,7 @@
   <div class="contents">
     <h3 align="center"> Stock Market Portolio Simulator </h3>
     <ul>
-      <li align="left"> Python, OpenCV </li>
+      <li align="left"> Python, Pandas, NumPy </li>
     </ul>
     <p align="justify"> This Portfolio simulator builds the performance of the portolio for a given stock and market data.
         It receives an "Orders" file containing actions: "BUY", "SELL", Symbol of the stock, Dates, and 
@@ -188,10 +188,8 @@
       <li align="left"> Python </li>
     </ul>
     <p align="justify"> The Model-free reinforcement learning Q-learning algorithm was programmed for navigating 
-    a simple maze. An image is converted to a HSV color space for color based segmentation.
-    The system emphasizes body tones that can be used for tracking, AR applications and so on. 
-      An image is converted to a HSV color space for color based segmentation.
-    The system emphasizes body tones that can be used for tracking, AR applications and so on.</p>
+    a simple maze. A Q-table is built based on immediate and discounted rewards using experience tuples as the 
+      bot interacts with the world. </p>
     <a class="project-link" href="https://kbmajeed.github.io/HiddenFiles/">Check it out</a>
   </div>
 </div>
@@ -249,12 +247,12 @@
   <div class="contents">
     <h3 align="center"> Implementing YOLO Object detection algorithm </h3>
     <ul>
-      <li align="left"> YOLO, Python, Keras </li>
+      <li align="left"> Python, YOLO, Keras, Tensorflow </li>
     </ul>
-    <p align="justify">A HDR image is made by smartly combining multiple photographs of a scene at different exposures.
-    It involves three main steps: Calibration, Radiance Map, and Tone Mapping. The Camera response curve 
-    is calculated in the first step, followed by a the computation of radiance map. Finally, correction
-     of the color tones in the image is performed.</p>
+    <p align="justify">YOLO ("you only look once") is a popular algoritm because it achieves high accuracy while 
+      also being able to run in real-time. This algorithm "only looks once" at the image in the sense that it 
+      requires only one forward propagation pass through the network to make predictions. After non-max suppression,
+      it then outputs recognized objects together with the bounding boxes.</p>
     <a class="project-link" href="https://kbmajeed.github.io/HiddenFiles/">Check it out</a>
   </div>
 </div>
@@ -284,10 +282,9 @@
     <ul>
       <li align="left"> Python, Art-NST, Tensorflow </li>
     </ul>
-    <p align="justify">A HDR image is made by smartly combining multiple photographs of a scene at different exposures.
-    It involves three main steps: Calibration, Radiance Map, and Tone Mapping. The Camera response curve 
-    is calculated in the first step, followed by a the computation of radiance map. Finally, correction
-     of the color tones in the image is performed. </p>
+    <p align="justify">Neural Style Transfer (NST) is one of the most fun techniques in deep learning. 
+      It merges two images, namely, a "content" image (C) and a "style" image (S), to create a "generated" image (G). 
+      The generated image G combines the "content" of the image C with the "style" of image S.</p>
     <a class="project-link" href="https://kbmajeed.github.io/HiddenFiles/"> Private </a>
   </div>
 </div>
@@ -302,10 +299,10 @@
     <ul>
       <li align="left"> Python, Keras, Tensorflow, Triplet Loss </li>
     </ul>
-    <p align="justify">A HDR image is made by smartly combining multiple photographs of a scene at different exposures.
-    It involves three main steps: Calibration, Radiance Map, and Tone Mapping. The Camera response curve 
-    is calculated in the first step, followed by a the computation of radiance map. Finally, correction
-     of the color tones in the image is performed. </p>
+    <p align="justify">Given two images you have to tell if they are of the same person. Due to variations 
+      in lighting, orientation of the person's face, even minor changes in head position, and so on, directly 
+      comparing pixel values won't work. Instead, learning an encoding gives more accurate
+    judgements as to whether two pictures are of the same person. </p>
     <a class="project-link" href="https://kbmajeed.github.io/HiddenFiles/"> Private </a>
   </div>
 </div>
@@ -332,15 +329,13 @@
     <img alt="mountains" src="{{ "/assets/img/hand_digit.jpg" | prepend: site.baseurl }}" />
   </div>
   <div class="contents">
-    <h3 align="center"> Hand-Sign Recognition with ConvNets </h3>
+    <h3 align="center"> Hand-Sign Classification with ConvNets </h3>
     <ul>
       <li align="left"> Python, Tensorflow, CNN, Jupyter </li>
     </ul>
-    <p align="justify">A HDR image is made by smartly combining multiple photographs of a scene at different exposures.
-    It involves three main steps: Calibration, Radiance Map, and Tone Mapping. The Camera response curve 
-    is calculated in the first step, followed by a the computation of radiance map. Finally, correction
-     of the color tones in the image is performed.
-    </p>
+    <p align="justify"> The SIGNS dataset is a collection of 6 signs representing numbers from 0 to 5.
+      A ConvNet was built with TensorFlow for solving this classification problem. Steps include: Creating placeholders,
+      initializing parameters, forward propagation, computing cost, and then optimization. </p>
     <a class="project-link" href="https://kbmajeed.github.io/HiddenFiles/">Check it out</a>
   </div>
 </div>
@@ -355,10 +350,9 @@
     <ul>
       <li align="left"> Python, Keras, ResNets </li>
     </ul>
-    <p align="justify">A HDR image is made by smartly combining multiple photographs of a scene at different exposures.
-    It involves three main steps: Calibration, Radiance Map, and Tone Mapping. The Camera response curve 
-    is calculated in the first step, followed by a the computation of radiance map. Finally, correction
-     of the color tones in the image is performed. </p>
+    <p align="justify"> This work deals with very deep convolutional networks, using Residual Networks (ResNets). 
+      In theory, very deep networks can represent very complex functions; but in practice, they are hard to train (vanishing gradients).
+    ResNets, introduced by He et al., allow training much deeper networks using the idea of skip-connections.</p>
     <a class="project-link" href="https://kbmajeed.github.io/HiddenFiles/"> Private </a>
   </div>
 </div>
@@ -373,11 +367,11 @@
     <ul>
       <li align="left"> Matlab, Simulink, Lyapunov Backstepping </li>
     </ul>
-    <p align="justify"> Lyapunov based based backstepping controller was developed to control an induction motor A HDR image is made by smartly combining multiple photographs of a scene at different exposures.
-    It involves three main steps: Calibration, Radiance Map, and Tone Mapping. The Camera response curve 
-    is calculated in the first step, followed by a the computation of radiance map. Finally, correction
-     of the color tones in the image is performed.
-    </p>
+    <p align="justify"> Lyapunov based based backstepping controller was developed to control an induction motor.
+      Induction Motors are reliable, rugged and cheap. Main problem arises from: coupled highly nonlinear model,
+      unavailability of certain parameters and time varying nature of some parameters.
+      Nonlinear control techniques such as Feedback linearization, Input-Output linearization, Backstepping, Sliding mode and 
+      Passivity have been applied previously.</p>
     <a class="project-link" href="https://kbmajeed.github.io/HiddenFiles/">Check it out</a>
   </div>
 </div>
@@ -404,14 +398,14 @@
     <img alt="mountains" src="{{ "/assets/img/lens-490806_1280.jpg" | prepend: site.baseurl }}" />
   </div>
   <div class="contents">
-    <h3 align="center"> Happiness Detection with CNN </h3>
+    <h3 align="center"> Face Recognition with CNN </h3>
     <ul>
       <li align="left"> Python, Keras </li>
     </ul>
-    <p align="justify">A HDR image is made by smartly combining multiple photographs of a scene at different exposures.
-    It involves three main steps: Calibration, Radiance Map, and Tone Mapping. The Camera response curve 
-    is calculated in the first step, followed by a the computation of radiance map. Finally, correction
-     of the color tones in the image is performed. </p>
+    <p align="justify">FaceNet learns a neural network that encodes a face image into a vector of 128 numbers. 
+      By comparing two such vectors, you can then determine if two pictures are of the same person. 
+      A triplet loss function was used, with a pretrained model with  encodings to perform face 
+      verification and face recognition</p>
     <a class="project-link" href="https://kbmajeed.github.io/HiddenFiles/"> Private </a>
   </div>
 </div>
@@ -442,9 +436,9 @@
     <ul>
       <li align="left"> Python, NumPy, PIL, SciPy </li>
     </ul>
-    <p align="justify">Implementing the paper "A multiresolution spline with application to image mosaics".
-      A cool framework was developed to blend images using a predefined mask. This can 
-      be used for interesting image editing such as face swaps</p>
+    <p align="justify"> Classification of "Cat vs non-Cat" dataset using Deep neural networks.
+    Compared to simple logistic regression, the DNN yields better classification accuracy.
+    Performance of 70% with logistic regression, 72% with 2 layers, and 80% with a 4 layer network.</p>
     <a class="project-link" href="https://kbmajeed.github.io/HiddenFiles/">Check it out</a>
   </div>
 </div>
